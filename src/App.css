@@ -62,6 +62,12 @@
   width: 20em;
   margin: 1em;
   border-radius: 5%;
+  filter: blur(3px);
+}
+
+.flex-container :hover {
+  cursor: pointer;
+  filter: blur(0px);
 }
 
 .flex-container h2 {
