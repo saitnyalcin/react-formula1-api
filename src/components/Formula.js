@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import FormulaPilot from './FormulaPilot';
+import PilotCardView from './PilotCardView';
 
 export default function Formula() {
   const [data, setData] = useState([]);
@@ -25,7 +25,7 @@ export default function Formula() {
               {formula.DriverStandings.map(standing => (
                 <div key={standing.Driver.driverId}>
                   {standing.Constructors.map(constructor => (
-                    <FormulaPilot
+                    <PilotCardView
                       givenName={standing.Driver.givenName}
                       familyName={standing.Driver.familyName}
                       dateOfBirth={standing.Driver.dateOfBirth}
