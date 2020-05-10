@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import FormulaPilot from './FormulaPilot';
 
-export default function History() {
+export default function Formula() {
   const [data, setData] = useState([]);
 
   async function fetchData() {
@@ -20,17 +20,14 @@ export default function History() {
     <div>
       {Object.keys(data).map(item => (
         <div key={item}>
-          <div className="container">
+          <div>
             {data.MRData.StandingsTable.StandingsLists.map(formula => (
               <div>
-                <h1>Season: {formula.season}</h1>
                 {formula.DriverStandings.map(standing => (
                   <div>
                     {
                       <div key={standing.Driver.driverId}>
-                        <div>
-                          <FormulaPilot name={standing.Driver.givenName} />
-                        </div>
+                        <FormulaPilot name={standing.Driver.givenName} />
                       </div>
                     }
                   </div>

@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './images/tire.png';
+import f1logo from './images/F1_logo.png';
 import './App.css';
 import Formula from './components/Formula';
 
@@ -11,8 +12,10 @@ function App() {
         <p>Formula 1 Api</p>
       </header>
 
+      <Formula />
+
       <div>
-        <Formula />
+        <img src={f1logo} className="footer-logo" alt="logo" />
       </div>
     </div>
   );
