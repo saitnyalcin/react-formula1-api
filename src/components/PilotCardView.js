@@ -15,16 +15,16 @@ const FormulaPilot = ({
     <div className="flex-container">
       <div>
         <PilotsImage image={givenName} />
-        <h1>#{position}</h1>
-        <h1>
+        <h2>#{position}</h2>
+        <h2>
           {givenName} ({code})
-        </h1>
-        <h1>{familyName}</h1>
-        <h1>{dateOfBirth}</h1>
-        <h1>{nationality}</h1>
-        <h1>
+        </h2>
+        <h2>{familyName}</h2>
+        <h2>{dateOfBirth}</h2>
+        <h2>{nationality}</h2>
+        <h2>
           <a href={constructorWebsite}>{constructorName}</a>
-        </h1>
+        </h2>
       </div>
     </div>
   );

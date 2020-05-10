@@ -64,6 +64,10 @@
   border-radius: 5%;
 }
 
+.flex-container h2 {
+  margin: 2%;
+}
+
 .pilot-image img {
   margin: 1%;
   width: 12em;

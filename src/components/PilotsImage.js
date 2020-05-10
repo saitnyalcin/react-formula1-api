@@ -17,10 +17,10 @@ import Nelson from '../pilot-images/nelson-piquet-jr.jpg';
 import Nick from '../pilot-images/nick-heidfeld.jpg';
 import Nico from '../pilot-images/nico-rosberg.png';
 import Robert from '../pilot-images/robert-kubica.jpg';
-import Rubens from '../pilot-images/rubens-barrichello.png';
+import Rubens from '../pilot-images/rubens-barrichello.jpg';
 import Sebastian from '../pilot-images/sebastian-vettel.jpg';
 import Sébastien from '../pilot-images/sebastien-bourdais.jpg';
-import Takuma from '../pilot-images/takuma-sato.jpg';
+import Takuma from '../pilot-images/takuma-sato.jpeg';
 import Timo from '../pilot-images/timo-glock.jpg';
 
 const PilotsImage = ({ image }) => {
