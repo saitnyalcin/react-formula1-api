@@ -1,4 +1,4 @@
-## Formula 1 Legend Schumacher Api
+## Formula 1 = The Legend Schumacher Api
 
 Michael Schumacher born 3 January 1969) is a retired German racing driver who raced in Formula One for Jordan Grand Prix, Benetton and Ferrari, where he spent most of his career, as well as for Mercedes upon his return to the sport. Widely regarded as one of the greatest Formula One drivers ever and regarded by some as the greatest of all time. 
 
