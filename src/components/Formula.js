@@ -20,21 +20,15 @@ export default function Formula() {
     <div>
       {Object.keys(data).map(item => (
         <div key={item}>
-          <div>
-            {data.MRData.StandingsTable.StandingsLists.map(formula => (
-              <div>
-                {formula.DriverStandings.map(standing => (
-                  <div>
-                    {
-                      <div key={standing.Driver.driverId}>
-                        <FormulaPilot name={standing.Driver.givenName} />
-                      </div>
-                    }
-                  </div>
-                ))}
-              </div>
-            ))}
-          </div>
+          {data.MRData.StandingsTable.StandingsLists.map(formula => (
+            <div key={formula}>
+              {formula.DriverStandings.map(standing => (
+                <div key={standing.Driver.driverId}>
+                  {<FormulaPilot name={standing.Driver.givenName} />}
+                </div>
+              ))}
+            </div>
+          ))}
         </div>
       ))}
     </div>

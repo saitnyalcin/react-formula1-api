@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Formula 1 Api</p>
+        <p>Season 2008</p>
       </header>
 
       <Formula />
