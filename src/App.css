@@ -3,11 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 .footer-logo {
-  margin: 10%;
+  margin: 1%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -17,7 +17,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('../src/images/schumacher-banner.jpg'); /* The image used */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -41,3 +46,27 @@
 }
 
 /* Flex box styling */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #282c34;
+}
+
+.flex-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1f1f1;
+  width: 20em;
+  margin: 1em;
+  border-radius: 10%;
+}
+
+.pilot-image img {
+  margin: 1%;
+  width: 12em;
+  height: 12em;
+  border-radius: 100%;
+}

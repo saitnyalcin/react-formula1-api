@@ -21,10 +21,19 @@ export default function Formula() {
       {Object.keys(data).map(item => (
         <div key={item}>
           {data.MRData.StandingsTable.StandingsLists.map(formula => (
-            <div key={formula}>
+            <div key={formula} className="flex-container">
               {formula.DriverStandings.map(standing => (
                 <div key={standing.Driver.driverId}>
-                  {<FormulaPilot name={standing.Driver.givenName} />}
+                  {standing.Constructors.map(constructor => (
+                    <FormulaPilot
+                      givenName={standing.Driver.givenName}
+                      familyName={standing.Driver.familyName}
+                      dateOfBirth={standing.Driver.dateOfBirth}
+                      nationality={standing.Driver.nationality}
+                      constructor={constructor.name}
+                      constructorWebsite={constructor.url}
+                    />
+                  ))}
                 </div>
               ))}
             </div>
