@@ -26,11 +26,13 @@ export default function Formula() {
                 <div key={standing.Driver.driverId}>
                   {standing.Constructors.map(constructor => (
                     <PilotCardView
+                      position={standing.position}
+                      code={standing.Driver.code}
                       givenName={standing.Driver.givenName}
                       familyName={standing.Driver.familyName}
                       dateOfBirth={standing.Driver.dateOfBirth}
                       nationality={standing.Driver.nationality}
-                      constructor={constructor.name}
+                      constructorName={constructor.name}
                       constructorWebsite={constructor.url}
                     />
                   ))}
