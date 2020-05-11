@@ -61,8 +61,7 @@
   flex-direction: row;
   background-color: azure;
   width: 100%;
-  /* margin: 1em; */
-  /* border-radius: 5%; */
+  margin: 0.5em;
   filter: blur(3px);
 }
 
@@ -81,11 +80,10 @@
   height: 10em;
   border-radius: 100%;
 }
-.car-image {
+.car-image img {
   margin: 1%;
   width: 25em;
   height: 15em;
-  border-radius: 100%;
 }
 
 a {
