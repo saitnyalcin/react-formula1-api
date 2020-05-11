@@ -49,19 +49,20 @@
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #282c34;
+  width: 100%;
 }
 
 .flex-container > div {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   background-color: azure;
-  width: 20em;
-  margin: 1em;
-  border-radius: 5%;
+  width: 100%;
+  /* margin: 1em; */
+  /* border-radius: 5%; */
   filter: blur(3px);
 }
 
@@ -71,13 +72,19 @@
 }
 
 .flex-container h2 {
-  margin: 2%;
+  margin: 1.5%;
 }
 
 .pilot-image img {
-  margin: 1%;
-  width: 12em;
-  height: 12em;
+  margin: 2%;
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+}
+.car-image {
+  margin: 2%;
+  width: 20em;
+  height: 15em;
   border-radius: 100%;
 }
 

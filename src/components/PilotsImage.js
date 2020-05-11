@@ -99,7 +99,7 @@ const PilotsImage = ({ image }) => {
 
   return (
     <div className="pilot-image">
-      <img src={image} alt="" />
+      <img src={image} alt="pilotImage" />
     </div>
   );
 };
