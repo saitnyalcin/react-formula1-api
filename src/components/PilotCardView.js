@@ -15,9 +15,9 @@ const FormulaPilot = ({
   return (
     <div className="flex-container">
       <div>
-        <img src={CarImage} className="car-image" image={givenName} />
-        <PilotsImage image={givenName} />
         <h2>#{position}</h2>
+        <img src={CarImage} className="car-image" image={givenName} alt="" />
+        <PilotsImage image={givenName} alt="" />
         <h2>
           {givenName} ({code})
         </h2>
