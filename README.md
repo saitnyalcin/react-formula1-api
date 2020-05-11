@@ -9,5 +9,3 @@ Schumacher was "statistically the greatest driver the sport has ever seen" at th
 <img src="src/images/schumacher.png" />
 
 <img src="src/images/screenshot-2.png" />
-
-<img src="src/images/screenshot-3.png" />
