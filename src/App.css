@@ -75,7 +75,7 @@
 }
 
 .pilot-image img {
-  margin: 2%;
+  margin: 5%;
   width: 10em;
   height: 10em;
   border-radius: 100%;
@@ -83,7 +83,7 @@
 .car-image img {
   margin: 1%;
   width: 25em;
-  height: 15em;
+  height: 5em;
 }
 
 a {

@@ -1,6 +1,6 @@
 import React from 'react';
 import PilotsImage from './PilotsImage';
-import CarImage from '../images/mclaren.png';
+import CarImage from './CarImage';
 
 const FormulaPilot = ({
   position,
@@ -16,7 +16,7 @@ const FormulaPilot = ({
     <div className="flex-container">
       <div>
         <h2>#{position}</h2>
-        <img src={CarImage} className="car-image" image={givenName} alt="" />
+        <CarImage image={givenName} alt="" />
         <PilotsImage image={givenName} alt="" />
         <h2>
           {givenName} ({code})
