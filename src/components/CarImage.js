@@ -23,6 +23,7 @@ import Sébastien from '../car-images/toro-rosso.png';
 import Takuma from '../car-images/super-aguri.png';
 import Timo from '../car-images/toyota.png';
 
+// Set Driver image based on the given name
 const CarImage = ({ image }) => {
   switch (image) {
     case 'Lewis':

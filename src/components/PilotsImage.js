@@ -23,6 +23,7 @@ import Sébastien from '../pilot-images/sebastien-bourdais.jpg';
 import Takuma from '../pilot-images/takuma-sato.jpeg';
 import Timo from '../pilot-images/timo-glock.jpg';
 
+// Set Driver image based on the given name
 const PilotsImage = ({ image }) => {
   switch (image) {
     case 'Lewis':
