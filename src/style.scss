@@ -1,0 +1,17 @@
+$carImgMargin: 1%;
+$carImgWidth: 80%;
+
+$pilotImgMargin: 5%;
+$pilotImgWidth: 50%;
+$pilotImgBorderRadius: 25%;
+
+.car-image img {
+  margin: $carImgMargin;
+  width: $carImgWidth;
+}
+
+.pilot-image img {
+  margin: $pilotImgMargin;
+  width: $pilotImgWidth;
+  border-radius: $pilotImgBorderRadius;
+}

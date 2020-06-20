@@ -74,18 +74,6 @@
   margin: 1.5%;
 }
 
-.pilot-image img {
-  margin: 5%;
-  width: 10em;
-  height: 10em;
-  border-radius: 100%;
-}
-.car-image img {
-  margin: 1%;
-  width: 25em;
-  height: 5em;
-}
-
 a {
   text-decoration: none;
 }

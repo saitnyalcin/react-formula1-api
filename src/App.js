@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './images/tire.png';
 import f1logo from './images/F1_logo.png';
 import './App.css';
+import './style.scss';
 import Formula from './components/Formula';
 
 function App() {
