@@ -19,4 +19,8 @@ describe("App component", () => {
   test("renders the nested Formula Component inside the App component", () => {
     expect(wrapper.find("Formula").exists()).toBe(true);
   });
+
+  test("checks the footer logo class inside the App component", () => {
+    expect(wrapper.find("header").hasClass("App-header")).toEqual(true);
+  });
 });
