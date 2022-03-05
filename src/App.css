@@ -3,9 +3,9 @@
 }
 
 .App-logo {
-  height: 20vmin;
-  pointer-events: none;
+  height: 30vmin;
 }
+
 .footer-logo {
   margin: 1%;
 }
@@ -16,8 +16,14 @@
   }
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo:hover {
+    animation: App-logo-spin infinite 1s linear;
+  }
+}
+
 .App-header {
-  background-image: url('../src/images/schumacher-banner.jpg'); /* The image used */
+  background-image: url("../src/images/schumacher-banner.jpg"); /* The image used */
   height: 500px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */

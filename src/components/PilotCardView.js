@@ -1,6 +1,6 @@
-import React from 'react';
-import PilotsImage from './PilotsImage';
-import CarImage from './CarImage';
+import React from "react";
+import PilotsImage from "./PilotsImage";
+import CarImage from "./CarImage";
 
 const FormulaPilot = ({
   position,
@@ -10,7 +10,7 @@ const FormulaPilot = ({
   dateOfBirth,
   nationality,
   constructorName,
-  constructorWebsite
+  constructorWebsite,
 }) => {
   return (
     <div className="flex-container">
