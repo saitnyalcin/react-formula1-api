@@ -10,7 +10,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Season 2008</p>
+        <div className="schumi_quote">
+          Once something is a passion, the motivation is there...
+        </div>
+        <div>Season 2008</div>
       </header>
 
       <Formula />
