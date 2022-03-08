@@ -11,7 +11,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <div className="schumi_quote">
-          Once something is a passion, the motivation is there...
+          <q>Once something is a passion, the motivation is there</q>
         </div>
         <div>Season 2008</div>
       </header>
