@@ -75,7 +75,7 @@
   background-color: azure;
   width: 100%;
   margin: 0.5em;
-  filter: blur(3px);
+  filter: blur(1px);
 }
 
 .flex-container :hover {
