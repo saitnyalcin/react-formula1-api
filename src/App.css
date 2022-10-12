@@ -109,3 +109,14 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.car-image img {
+  margin: 1%;
+  width: 80%;
+}
+
+.pilot-image img {
+  margin: 5%;;
+  width: 50%;
+  border-radius: 25%;
+}
