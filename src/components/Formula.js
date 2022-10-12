@@ -7,7 +7,7 @@ export default function Formula() {
   // set the api call function using the fetch data library to sethe data
   async function fetchData() {
     const result = await fetch(
-      "http://ergast.com/api/f1/2008/driverStandings.json"
+      "https://ergast.com/api/f1/2008/driverStandings.json"
     );
 
     //set the content and parse into the data set using set Data
