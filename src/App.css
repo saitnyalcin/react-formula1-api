@@ -131,7 +131,7 @@ a:active {
     align-items: center;
     flex-direction: column;
     background-color: azure;
-    width: 200px;
+    width: 180px;
   }
 
   .car-image img {
@@ -145,5 +145,9 @@ a:active {
   .App-header {
     background-image: none;
     background-color: #282c34;
+  }
+  
+  .title {
+    font-size: larger;
   }
 }

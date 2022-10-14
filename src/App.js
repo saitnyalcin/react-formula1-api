@@ -12,7 +12,7 @@ function App() {
         <div className="schumi_quote">
           <q>Once something is a passion, the motivation is there</q>
         </div>
-        <div>Formula 1 Season 2008</div>
+        <div className="title">Formula 1 Season 2008</div>
       </header>
 
       <Formula />
