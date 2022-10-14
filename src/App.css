@@ -142,9 +142,14 @@ a:active {
     visibility: hidden;
   }
   
-  .App-header {
+  .App-header { 
+    height: 400px;
     background-image: none;
     background-color: #282c34;
+  }
+
+  .App-logo {
+    height: 35vmin;
   }
   
   .title {
