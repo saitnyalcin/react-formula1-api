@@ -75,12 +75,6 @@
   background-color: azure;
   width: 100%;
   margin: 0.5em;
-  filter: blur(1px);
-}
-
-.flex-container :hover {
-  cursor: pointer;
-  filter: blur(0px);
 }
 
 .flex-container h2 {
@@ -116,7 +110,40 @@ a:active {
 }
 
 .pilot-image img {
-  margin: 5%;;
+  margin: 5%;
   width: 50%;
   border-radius: 25%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #282c34;
+    width: 100%;
+  }
+
+  .flex-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    width: 200px;
+  }
+
+  .car-image img {
+    visibility: hidden;
+  }
+
+  .schumi_quote {
+    visibility: hidden;
+  }
+  
+  .App-header {
+    background-image: none;
+    background-color: #282c34;
+  }
 }
